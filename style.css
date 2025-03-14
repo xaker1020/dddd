@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header .container{
+    background: #272C3D;
+display: flex;
+justify-content: space-between;
+padding-top: 21px;
+padding-bottom: 20px;
+color: white;
+align-items: center;
+}
+header{
+    background: #272C3D;
+
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+list-style: none;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+input{
+    border: none;
+    background: #404864;
+    width: 241.8699951171875px;
+height: 30px;
+top: 20px;
+left: 790.53px;
+border-radius: 5px;
+
+}
+header .container div{
+    gap: 45px;
+    display: flex;
+    
+}
+i{
+    margin-left: -70px;
+    text-align: center;
+    align-items: center;
+    margin-top: 8px;
+}
+select{
+    width: 165.49000549316406px;
+height: 30px;
+top: 20px;
+background: #00000080;
+color: white;
+left: 1070.59px;
+
+}
+nav ul li a:hover{
+    color: #FF9C28;
+}
+.cs{
+    background-image: url(./img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+height: 654px;
+top: 70px;
+
+}
+.ma{
+    /* display: flex; */
+    justify-content: space-between;
+    padding-top: 100px;
+   
+
+
+}
+main{
+    background-color: black;
+}
+.qa{
+    padding-bottom: 90px;
+}
+.h12{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Quantico;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.we{
+    background: #1B1E27;
+justify-content: center;
+}
+.we2{
+    justify-content: center;
+ padding-left: 300px;
+    color: white;
+padding-top: 60px;
+}
+.we4{
+    display: flex;
+    width: 740px;
+height: 298px;
+top: 1060px;
+left: 892px;
+justify-content: center;
+
+}
+.pgl{
+    font-family: Quantico;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 20px;
+}
+footer{
+    background: #272C3D;
+
+}
+footer .container{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 22px;
+}
